@@ -86,9 +86,11 @@
 }
 
 .brand-mark {
-	width: 68px;
-	height: 68px;
+	display: block;
+	width: clamp(150px, 14vw, 210px);
+	height: auto;
 	flex: 0 0 auto;
+	object-fit: contain;
 }
 
 .eyebrow,

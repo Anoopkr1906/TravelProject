@@ -131,41 +131,11 @@ const contactDetails = {
 
 function BrandMark() {
   return (
-    <svg
+    <img
       className="brand-mark"
-      viewBox="0 0 320 320"
-      role="img"
-      aria-label="Sri Krishna Tour and Adventures logo"
-    >
-      <defs>
-        <linearGradient id="ringGradient" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#0d6557" />
-          <stop offset="100%" stopColor="#0a4f45" />
-        </linearGradient>
-        <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stopColor="#d88f2d" />
-          <stop offset="100%" stopColor="#e3b15b" />
-        </linearGradient>
-      </defs>
-      <circle cx="160" cy="160" r="142" fill="none" stroke="url(#ringGradient)" strokeWidth="6" />
-      <circle cx="160" cy="160" r="126" fill="none" stroke="#aecfca" strokeWidth="1.5" />
-      <path d="M160 52 L188 106 L172 106 L172 118 L148 118 L148 106 L132 106 Z" fill="#0e6a5d" />
-      <path d="M109 109 L160 52 L211 109 L194 109 L194 122 L126 122 L126 109 Z" fill="#0e6a5d" />
-      <path d="M125 121 H195 V137 H125 Z" fill="#0e6a5d" />
-      <path d="M118 143 H202 V202 H118 Z" fill="#0e6a5d" />
-      <path d="M138 202 V158 C138 147 146 139 156 139 H164 C174 139 182 147 182 158 V202 Z" fill="#ffffff" />
-      <path d="M114 169 H106 L86 141 C84 138 84 134 87 132 L97 125 C100 123 104 123 107 126 L127 154 C130 158 127 164 122 165 Z" fill="#2f8c79" />
-      <path d="M94 144 C82 145 78 133 84 127 C91 119 104 123 106 134 C107 141 102 145 94 144 Z" fill="#fff7ea" stroke="#d88f2d" strokeWidth="3" />
-      <path d="M206 169 H214 L234 141 C236 138 236 134 233 132 L223 125 C220 123 216 123 213 126 L193 154 C190 158 193 164 198 165 Z" fill="#2f8c79" />
-      <path d="M226 144 C238 145 242 133 236 127 C229 119 216 123 214 134 C213 141 218 145 226 144 Z" fill="#fff7ea" stroke="#d88f2d" strokeWidth="3" />
-      <path d="M108 58 L126 76" stroke="url(#accentGradient)" strokeWidth="5" strokeLinecap="round" />
-      <path d="M160 46 V72" stroke="url(#accentGradient)" strokeWidth="5" strokeLinecap="round" />
-      <path d="M212 58 L194 76" stroke="url(#accentGradient)" strokeWidth="5" strokeLinecap="round" />
-      <path d="M80 100 L102 110" stroke="url(#accentGradient)" strokeWidth="5" strokeLinecap="round" />
-      <path d="M240 100 L218 110" stroke="url(#accentGradient)" strokeWidth="5" strokeLinecap="round" />
-      <path d="M96 253 C132 245 188 245 224 253" fill="none" stroke="url(#accentGradient)" strokeWidth="5" strokeLinecap="round" />
-      <path d="M104 254 C126 270 194 270 216 254" fill="none" stroke="#0e6a5d" strokeWidth="2" opacity="0.2" />
-    </svg>
+      src="/logo.jpeg"
+      alt="Sri Krishna Tour and Adventures logo"
+    />
   )
 }
 
