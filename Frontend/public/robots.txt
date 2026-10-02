@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://srikrishnatour.com
+Host: https://www.srikrishnatour.in
 
 # Sitemaps
-Sitemap: https://srikrishnatour.com/sitemap.xml
+Sitemap: https://www.srikrishnatour.in/sitemap.xml
