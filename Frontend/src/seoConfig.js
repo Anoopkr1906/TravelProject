@@ -3,7 +3,13 @@ export const SITE_URL = (import.meta.env.VITE_SITE_URL || 'https://www.srikrishn
 export const BUSINESS_INFO = {
   name: 'Sri Krishna Tour and Adventures',
   legalName: 'Sri Krishna Tour and Adventures',
-  alternateName: 'Sri Krishna Tours Ranchi',
+  alternateName: [
+    'Shri Krishna Tour and Travels',
+    'Shree Krishna Tour and Travels',
+    'Sri Krishna Tour and Travels',
+    'Shri Krishna Travels Ranchi',
+    'Sri Krishna Tours Ranchi',
+  ],
   phone: '+91 9563526445',
   phoneRaw: '+919563526445',
   phoneDisplay: '9563526445',
@@ -43,9 +49,9 @@ export const SEO_PAGES = {
     path: '/',
     title: 'Sri Krishna Tour and Adventures | Best Tour & Taxi Service in Ranchi',
     description:
-      'Book affordable tour packages, local & outstation taxi services in Ranchi with Sri Krishna Tour and Adventures. 24/7 cab booking, family trips & weekend getaways. Call +91 9563526445.',
+      'Book affordable tour packages, local & outstation taxi services in Ranchi with Sri Krishna Tour and Adventures (Shri Krishna Travels). 24/7 cab booking, family trips & weekend getaways. Call +91 9563526445.',
     keywords:
-      'tour and travels in Ranchi, taxi service in Ranchi, car rental Ranchi, cab hire Ranchi, outstation cab Ranchi, Netarhat tour package, Patratu valley taxi, Sri Krishna Tour and Adventures, Jharkhand tourism',
+      'Shri Krishna tour and travels, Shri Krishna travels Ranchi, Shree Krishna tour and travels, Sri Krishna tour and travels, tour and travels in Ranchi, taxi service in Ranchi, car rental Ranchi, cab hire Ranchi, outstation cab Ranchi, Netarhat tour package, Patratu valley taxi, Sri Krishna Tour and Adventures, Jharkhand tourism',
     breadcrumbName: 'Home',
   },
   services: {
