@@ -1,9 +1,9 @@
-# robots.txt for https://www.srikrishnatour.in/
+# robots.txt for https://srikrishnatour.com/
 User-agent: *
 Allow: /
 
 # Host
-Host: https://www.srikrishnatour.in
+Host: https://srikrishnatour.com
 
 # Sitemaps
-Sitemap: https://www.srikrishnatour.in/sitemap.xml
+Sitemap: https://srikrishnatour.com/sitemap.xml

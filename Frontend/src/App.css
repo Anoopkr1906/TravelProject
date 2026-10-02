@@ -752,6 +752,7 @@
 }
 
 @media (max-width: 1024px) {
+
 	.hero-section,
 	.split-section,
 	.service-grid {
@@ -1067,4 +1068,4 @@
 		flex-direction: column;
 		text-align: center;
 	}
-}
+}
