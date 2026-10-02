@@ -814,3 +814,257 @@
 		max-width: none;
 	}
 }
+
+/* Page Lead and Header SEO Enhancements */
+.page-lead {
+	margin: 8px 0 0;
+	font-size: 1.05rem;
+	color: #55625e;
+	max-width: 65ch;
+	line-height: 1.6;
+}
+
+/* FAQ Section */
+.faq-section {
+	margin-top: 60px;
+}
+
+.faq-list {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	margin-top: 24px;
+}
+
+.faq-item {
+	border: 1px solid rgba(14, 106, 93, 0.14);
+	border-radius: 16px;
+	background: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(8px);
+	overflow: hidden;
+	transition: all 200ms ease;
+}
+
+.faq-item.open {
+	border-color: rgba(14, 106, 93, 0.35);
+	box-shadow: 0 8px 24px rgba(14, 106, 93, 0.08);
+	background: #ffffff;
+}
+
+.faq-question {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 18px 22px;
+	font-size: 1.05rem;
+	font-weight: 600;
+	color: #0f3933;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	text-align: left;
+	gap: 16px;
+}
+
+.faq-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	background: rgba(14, 106, 93, 0.08);
+	color: #0e6a5d;
+	font-weight: 700;
+	flex-shrink: 0;
+	font-size: 1.2rem;
+}
+
+.faq-answer {
+	padding: 0 22px 20px;
+	color: #4a5955;
+	font-size: 0.95rem;
+	line-height: 1.65;
+}
+
+/* SEO Footer */
+.site-footer {
+	position: relative;
+	z-index: 1;
+	margin-top: 70px;
+	padding-top: 50px;
+	border-top: 1px solid rgba(14, 106, 93, 0.15);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(244, 239, 228, 0.8) 100%);
+	border-radius: 28px 28px 0 0;
+}
+
+.footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 24px 40px;
+	display: grid;
+	grid-template-columns: 1.4fr 1fr 1.1fr 1.2fr;
+	gap: 36px;
+}
+
+.footer-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-brand-lockup {
+	margin-bottom: 12px;
+}
+
+.footer-logo {
+	width: 160px;
+	height: auto;
+	object-fit: contain;
+}
+
+.footer-about {
+	font-size: 0.88rem;
+	color: #4a5955;
+	line-height: 1.6;
+	margin: 0 0 16px;
+}
+
+.footer-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	background: rgba(14, 106, 93, 0.08);
+	padding: 8px 14px;
+	border-radius: 999px;
+	font-size: 0.82rem;
+	color: #0e6a5d;
+	font-weight: 600;
+}
+
+.star-rating {
+	color: #d97706;
+	font-weight: 700;
+}
+
+.footer-title {
+	font-family: 'Cormorant Garamond', Georgia, serif;
+	font-size: 1.35rem;
+	color: #0e4c43;
+	margin: 0 0 16px;
+	position: relative;
+	padding-bottom: 8px;
+}
+
+.footer-title::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 32px;
+	height: 2px;
+	background: #0e6a5d;
+	border-radius: 2px;
+}
+
+.footer-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.footer-links a {
+	color: #435450;
+	text-decoration: none;
+	font-size: 0.9rem;
+	transition: color 150ms ease, transform 150ms ease;
+	display: inline-block;
+}
+
+.footer-links a:hover {
+	color: #0e6a5d;
+	transform: translateX(3px);
+}
+
+.footer-contact-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.footer-contact-list li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	font-size: 0.88rem;
+	color: #435450;
+}
+
+.footer-contact-list .icon {
+	font-size: 1.1rem;
+	line-height: 1;
+	flex-shrink: 0;
+	margin-top: 2px;
+}
+
+.contact-highlight {
+	color: #0e6a5d;
+	font-weight: 700;
+	text-decoration: none;
+	display: block;
+	font-size: 1rem;
+	margin-top: 2px;
+}
+
+.footer-bottom {
+	border-top: 1px solid rgba(14, 106, 93, 0.12);
+	padding: 20px 24px;
+	background: rgba(14, 106, 93, 0.04);
+}
+
+.footer-bottom-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 12px;
+	font-size: 0.82rem;
+	color: #64736f;
+}
+
+.footer-bottom-container a {
+	color: #0e6a5d;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.footer-seo-meta {
+	font-size: 0.78rem;
+	opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+	.footer-container {
+		grid-template-columns: 1fr 1fr;
+		gap: 28px;
+	}
+}
+
+@media (max-width: 600px) {
+	.footer-container {
+		grid-template-columns: 1fr;
+	}
+
+	.footer-bottom-container {
+		flex-direction: column;
+		text-align: center;
+	}
+}
