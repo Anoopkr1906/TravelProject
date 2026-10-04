@@ -301,18 +301,18 @@ function HomePage() {
 
             <div className="trust-metrics-strip">
               <div className="metric-pill">
-                <strong>4.9 / 5</strong>
+                <strong>4.9/5</strong>
                 <span>
-                  <IconStar size={13} /> Guest Rating (120+ Reviews)
+                  <IconStar size={13} /> 120+ Reviews
                 </span>
               </div>
               <div className="metric-pill">
                 <strong>24/7</strong>
-                <span>Live Dispatch & Assistance</span>
+                <span>Live Dispatch</span>
               </div>
               <div className="metric-pill">
                 <strong>100%</strong>
-                <span>Sanitized, AC Vehicles</span>
+                <span>Sanitized AC Cabs</span>
               </div>
             </div>
 
@@ -842,39 +842,21 @@ function AppLayout() {
 
         {/* Mobile Navigation Header */}
         <div className="mobile-header">
-          <div className="mobile-top-row">
-            <div className="brand-lockup mobile-brand">
-              <BrandMark />
-            </div>
-
-            <button
-              type="button"
-              className="menu-toggle"
-              aria-label="Toggle menu"
-              aria-expanded={mobileMenuOpen}
-              onClick={() => setMobileMenuOpen((open) => !open)}
-            >
-              <span />
-              <span />
-              <span />
-            </button>
+          <div className="brand-lockup mobile-brand">
+            <BrandMark />
           </div>
 
-          <div className="mobile-actions-bar">
-            <a
-              href="https://wa.me/919563526445?text=Hello%20Sri%20Krishna%20Tour"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="header-wa-btn mobile-quick"
-            >
-              <IconWhatsApp size={16} />
-              <span>WhatsApp</span>
-            </a>
-            <a className="header-cta mobile-quick" href={`tel:${BUSINESS_INFO.phoneDisplay}`}>
-              <IconPhone size={15} />
-              <span>Call Dispatch</span>
-            </a>
-          </div>
+          <button
+            type="button"
+            className="menu-toggle"
+            aria-label="Toggle menu"
+            aria-expanded={mobileMenuOpen}
+            onClick={() => setMobileMenuOpen((open) => !open)}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
         </div>
       </header>
 
@@ -918,6 +900,23 @@ function AppLayout() {
 
       {/* SEO-Rich Footer */}
       <Footer />
+
+      {/* Floating Mobile Bottom Action Bar (Thumb-friendly conversion bar) */}
+      <aside className="mobile-bottom-bar" aria-label="Quick mobile booking">
+        <a
+          href="https://wa.me/919563526445?text=Hello%20Sri%20Krishna%20Tour%2C%20I%20would%20like%20to%20inquire%20about%20a%20cab%20or%20tour."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bottom-bar-action btn-bottom-wa"
+        >
+          <IconWhatsApp size={18} />
+          <span>WhatsApp</span>
+        </a>
+        <a href={`tel:${BUSINESS_INFO.phoneDisplay}`} className="bottom-bar-action btn-bottom-call">
+          <IconPhone size={17} />
+          <span>Call 24/7</span>
+        </a>
+      </aside>
     </div>
   )
 }
