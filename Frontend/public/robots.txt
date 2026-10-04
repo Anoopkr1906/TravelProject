@@ -1,4 +1,4 @@
-# robots.txt for https://srikrishnatour.com/
+# robots.txt for https://www.srikrishnatour.in/
 User-agent: *
 Allow: /
 
