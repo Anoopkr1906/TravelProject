@@ -1,9 +1,10 @@
 export const SITE_URL = (import.meta.env.VITE_SITE_URL || 'https://www.srikrishnatour.in').replace(/\/$/, '')
 
 export const BUSINESS_INFO = {
-  name: 'Sri Krishna Tour and Adventures',
-  legalName: 'Sri Krishna Tour and Adventures',
+  name: 'Shri Krishna Tour and Adventures',
+  legalName: 'Shri Krishna Tour and Adventures',
   alternateName: [
+    'Sri Krishna Tour and Adventures',
     'Shri Krishna Tour and Travels',
     'Shree Krishna Tour and Travels',
     'Sri Krishna Tour and Travels',
@@ -15,8 +16,8 @@ export const BUSINESS_INFO = {
   phoneDisplay: '9563526445',
   email: 'srikrishnatoursranchi@gmail.com',
   address: {
-    streetAddress: 'Main Road',
-    addressLocality: 'Ranchi',
+    streetAddress: 'Ghat Rd, near Sureshwar Dham, Ketari Bagan, Swarnarekha Nagar Colony',
+    addressLocality: 'Namkum, Ranchi',
     addressRegion: 'Jharkhand',
     postalCode: '834001',
     addressCountry: 'IN',
