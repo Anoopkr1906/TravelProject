@@ -183,7 +183,7 @@ function BrandMark() {
     <img
       className="brand-mark"
       src="/logo.jpeg"
-      alt="Sri Krishna Tour and Adventures logo - Ranchi Tour & Taxi Service"
+      alt="Shri Krishna Tour and Adventures logo - Ranchi Tour & Taxi Service"
       width="180"
       height="54"
       loading="eager"
@@ -199,7 +199,7 @@ function QuickBookingWidget() {
 
   const handleWhatsAppBooking = () => {
     const text = encodeURIComponent(
-      `Hello Sri Krishna Tour & Adventures, I would like to book a trip from Ranchi:\n- Service: ${serviceType}\n- Destination: ${destination}\n- Vehicle: ${vehicle}\n- Date: ${travelDate || 'Flexible'}\nPlease share quote & availability.`
+      `Hello Shri Krishna Tour and Adventures, I would like to book a trip from Ranchi:\n- Service: ${serviceType}\n- Destination: ${destination}\n- Vehicle: ${vehicle}\n- Date: ${travelDate || 'Flexible'}\nPlease share quote & availability.`
     )
     window.open(`https://wa.me/919563526445?text=${text}`, '_blank')
   }
@@ -285,7 +285,7 @@ function HomePage() {
           <div className="hero-content">
             <div className="luxury-kicker">
               <span className="kicker-line" />
-              <span>Premier Travel Concierge • Ranchi, Jharkhand</span>
+              <span>Shri Krishna Tour and Adventures • Ranchi, Jharkhand</span>
               <span className="kicker-line" />
             </div>
 
@@ -294,9 +294,7 @@ function HomePage() {
             </h1>
 
             <p className="hero-lead">
-              From the misty pine summits of Netarhat and the hairpin turns of Patratu Valley to sacred
-              Baidyanath Jyotirlinga yatras. Travel in private, pristine AC vehicles with vetted hill
-              chauffeurs and personalized itineraries.
+              Welcome to Shri Krishna Tour and Adventures. From the misty pine summits of Netarhat and the hairpin turns of Patratu Valley to sacred Baidyanath Jyotirlinga yatras, we provide private, pristine AC vehicles with vetted hill chauffeurs and personalized itineraries.
             </p>
 
             <div className="trust-metrics-strip">
@@ -546,7 +544,7 @@ function ServicesPage() {
         <h1>Travel Services & Taxi Hire in Ranchi</h1>
         <p className="page-lead">
           From local city transfers and 24/7 outstation car rentals to curated family packages and
-          hotel accommodations, Sri Krishna Tour and Adventures delivers dependable excellence.
+          hotel accommodations, Shri Krishna Tour and Adventures delivers dependable excellence.
         </p>
       </div>
 
@@ -693,7 +691,7 @@ function ContactPage() {
           <span>24/7 Booking & Support</span>
           <span className="kicker-line" />
         </div>
-        <h1>Contact Sri Krishna Tour and Adventures</h1>
+        <h1>Contact Shri Krishna Tour and Adventures</h1>
         <p className="page-lead">
           Our dispatch team is standing by 24 hours a day to assist with immediate cab bookings,
           weekend getaways, and customized Jharkhand tour itineraries.

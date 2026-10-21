@@ -48,47 +48,47 @@ export const BUSINESS_INFO = {
 export const SEO_PAGES = {
   home: {
     path: '/',
-    title: 'Sri Krishna Tour and Adventures | Best Tour & Taxi Service in Ranchi',
+    title: 'Shri Krishna Tour and Adventures | Best Tour & Taxi Service in Ranchi',
     description:
-      'Book affordable tour packages, local & outstation taxi services in Ranchi with Sri Krishna Tour and Adventures (Shri Krishna Travels). 24/7 cab booking, family trips & weekend getaways. Call +91 9563526445.',
+      'Book affordable tour packages, local & outstation taxi services in Ranchi with Shri Krishna Tour and Adventures (also known as Sri Krishna Travels). 24/7 cab booking, family trips & weekend getaways. Call +91 9563526445.',
     keywords:
-      'Shri Krishna tour and travels, Shri Krishna travels Ranchi, Shree Krishna tour and travels, Sri Krishna tour and travels, tour and travels in Ranchi, taxi service in Ranchi, car rental Ranchi, cab hire Ranchi, outstation cab Ranchi, Netarhat tour package, Patratu valley taxi, Sri Krishna Tour and Adventures, Jharkhand tourism',
+      'Shri Krishna Tour and Adventures, Shri Krishna tour and travels, Shri Krishna travels Ranchi, Shree Krishna tour and travels, Sri Krishna tour and travels, Sri Krishna Tour and Adventures, tour and travels in Ranchi, taxi service in Ranchi, car rental Ranchi, cab hire Ranchi, outstation cab Ranchi, Netarhat tour package, Patratu valley taxi, Jharkhand tourism, Baidyanath dham tour',
     breadcrumbName: 'Home',
   },
   services: {
     path: '/services',
-    title: 'Travel Services & Taxi Hire in Ranchi | Sri Krishna Tour and Adventures',
+    title: 'Travel Services & Taxi Hire in Ranchi | Shri Krishna Tour and Adventures',
     description:
-      'Explore reliable travel services in Ranchi: outstation taxi service, curated tour packages, hotel bookings, weekend adventure trips, group travel, and 24/7 on-trip assistance.',
+      'Explore reliable travel services in Ranchi with Shri Krishna Tour and Adventures: outstation taxi service, curated tour packages, hotel bookings, weekend adventure trips, group travel, and 24/7 on-trip assistance.',
     keywords:
-      'taxi services Ranchi, car hire Ranchi, outstation cab Ranchi, hotel booking Jharkhand, tour packages Ranchi, group tour travel agency, cab booking Ranchi',
+      'Shri Krishna Tour and Adventures services, taxi services Ranchi, car hire Ranchi, outstation cab Ranchi, hotel booking Jharkhand, tour packages Ranchi, group tour travel agency, cab booking Ranchi, Shri Krishna travels',
     breadcrumbName: 'Services',
   },
   reviews: {
     path: '/reviews',
-    title: 'Customer Reviews & Ratings | Sri Krishna Tour and Adventures',
+    title: 'Customer Reviews & Ratings | Shri Krishna Tour and Adventures',
     description:
-      'Read authentic customer reviews for Sri Krishna Tour and Adventures. Rated 4.9/5 by travelers for polite drivers, clean cars, punctual service, and memorable itineraries.',
+      'Read authentic customer reviews for Shri Krishna Tour and Adventures. Rated 4.9/5 by travelers for polite drivers, clean cars, punctual service, and memorable itineraries.',
     keywords:
-      'Sri Krishna Tour reviews, Ranchi travel agency ratings, best taxi service Ranchi feedback, trusted tour operator Jharkhand',
+      'Shri Krishna Tour and Adventures reviews, Shri Krishna Tour reviews, Ranchi travel agency ratings, best taxi service Ranchi feedback, trusted tour operator Jharkhand',
     breadcrumbName: 'Reviews',
   },
   experiences: {
     path: '/experiences',
-    title: 'Past Customer Experiences & Travel Stories | Sri Krishna Tour and Adventures',
+    title: 'Past Customer Experiences & Travel Stories | Shri Krishna Tour and Adventures',
     description:
-      'Discover memorable travel stories from our guests: spiritual family pilgrimages, scenic Netarhat hill trips, and corporate outings planned seamlessly in Jharkhand.',
+      'Discover memorable travel stories from guests of Shri Krishna Tour and Adventures: spiritual family pilgrimages, scenic Netarhat hill trips, and corporate outings planned seamlessly in Jharkhand.',
     keywords:
-      'Netarhat trip experience, spiritual tour Baidyanath dham, corporate travel Ranchi, Jharkhand tour stories, travel memories Ranchi',
+      'Shri Krishna Tour and Adventures experiences, Netarhat trip experience, spiritual tour Baidyanath dham, corporate travel Ranchi, Jharkhand tour stories, travel memories Ranchi',
     breadcrumbName: 'Experiences',
   },
   contact: {
     path: '/contact',
-    title: 'Contact Us | Book Taxi & Tour Packages in Ranchi - Call 9563526445',
+    title: 'Contact Us | Shri Krishna Tour and Adventures Ranchi - Call 9563526445',
     description:
-      'Contact Sri Krishna Tour and Adventures in Ranchi, Jharkhand. Call +91 9563526445 for immediate taxi booking, family tour packages, outstation cabs, and custom trip planning.',
+      'Contact Shri Krishna Tour and Adventures in Ranchi, Jharkhand. Call +91 9563526445 for immediate taxi booking, family tour packages, outstation cabs, and custom trip planning.',
     keywords:
-      'contact Sri Krishna Tour, cab booking number Ranchi, travel agency phone Ranchi, book taxi Jharkhand, Ranchi travel contact',
+      'contact Shri Krishna Tour and Adventures, Shri Krishna Tour contact, cab booking number Ranchi, travel agency phone Ranchi, book taxi Jharkhand, Ranchi travel contact',
     breadcrumbName: 'Contact Us',
   },
 }

@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="footer-brand-lockup">
             <img
               src="/logo.jpeg"
-              alt="Sri Krishna Tour and Adventures Logo"
+              alt="Shri Krishna Tour and Adventures Logo"
               className="footer-logo"
               width="180"
               height="60"
@@ -19,7 +19,7 @@ export default function Footer() {
             />
           </div>
           <p className="footer-about">
-            <strong>Sri Krishna Tour and Adventures</strong> is Ranchi&apos;s premier travel concierge and taxi operator. Specializing in scenic Jharkhand hill escapes, sacred pilgrimages, and reliable 24/7 outstation car rentals with vetted chauffeurs.
+            <strong>Shri Krishna Tour and Adventures</strong> (also known as Sri Krishna Tour and Adventures) is Ranchi&apos;s premier travel concierge and taxi operator. Specializing in scenic Jharkhand hill escapes, sacred pilgrimages, and reliable 24/7 outstation car rentals with vetted chauffeurs.
           </p>
           <div className="footer-badge">
             <span className="star-rating">
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
           <div className="footer-quick-cta">
             <a
-              href={`https://wa.me/919563526445?text=Hello%20Sri%20Krishna%20Tour%2C%20I%20would%20like%20to%20inquire%20about%20a%20tour%20or%20taxi.`}
+              href={`https://wa.me/919563526445?text=Hello%20Shri%20Krishna%20Tour%20and%20Adventures%2C%20I%20would%20like%20to%20inquire%20about%20a%20tour%20or%20taxi.`}
               target="_blank"
               rel="noopener noreferrer"
               className="footer-wa-btn"
@@ -125,7 +125,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="footer-bottom-container">
           <p>
-            © {new Date().getFullYear()} <a href={SITE_URL}>Sri Krishna Tour and Adventures</a>. All rights reserved.
+            © {new Date().getFullYear()} <a href={SITE_URL}>Shri Krishna Tour and Adventures</a>. All rights reserved.
           </p>
           <p className="footer-seo-meta">
             Premier Tour Operator & Outstation Taxi Service in Ranchi | Official Portal:{' '}
