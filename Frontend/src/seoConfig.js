@@ -16,8 +16,8 @@ export const BUSINESS_INFO = {
   phoneDisplay: '9563526445',
   email: 'srikrishnatoursranchi@gmail.com',
   address: {
-    streetAddress: 'Ghat Rd, near Sureshwar Dham, Ketari Bagan, Swarnarekha Nagar Colony',
-    addressLocality: 'Namkum, Ranchi',
+    streetAddress: 'Ghat Road, Ketari bagan, Near Sureshwar Dham',
+    addressLocality: 'Ranchi',
     addressRegion: 'Jharkhand',
     postalCode: '834001',
     addressCountry: 'IN',
